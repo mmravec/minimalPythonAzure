@@ -26,5 +26,5 @@ def register():
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
-    if request.method == 'GET':
-        return render_template('login.html')
+    """Renders the login page."""
+    return render_template('login.html')
